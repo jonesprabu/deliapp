@@ -1,0 +1,32 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "email-ds": {
+    "name": "email-ds",
+    "connector": "mail",
+    "transports": [
+      {
+        "type": "smtp",
+        "host": "smtp.gmail.com",
+        "secure": true,
+        "port": 465,
+        "tls": {
+          "rejectUnauthorized": false
+        },
+        "auth": {
+          "user": "j1s.deliapp@gmail.com",
+          "pass": "J1sDeliapp"
+        }
+      }
+    ]
+  },
+  "mongoDs": {
+    "name": "mongoDs",
+    "host": "localhost",
+    "port": 27017,
+    "database": "deliapp",
+    "connector": "mongodb"
+  }
+}

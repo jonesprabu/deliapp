@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ]
+  },
+  "Email": {
+    "dataSource": "email-ds"
+  },
+  "User": {
+    "dataSource": "mongoDs",
+    "public": true,
+    "options": {
+      "emailVerificationRequired": true
+    }
+  },
+  "Order": {
+    "dataSource": "mongoDs",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "AccessToken": {
+    "dataSource": "mongoDs",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "mongoDs",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "mongoDs",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "mongoDs",
+    "public": false
+  },
+  "CoffeeShop": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "Review": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "Reviewer": {
+    "dataSource": "mongoDs",
+    "public": true
+  }
+}
