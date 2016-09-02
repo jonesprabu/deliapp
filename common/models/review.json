@@ -22,9 +22,9 @@
       "model": "CoffeeShop",
       "foreignKey": ""
     },
-    "reviewer": {
+    "user": {
       "type": "belongsTo",
-      "model": "Reviewer",
+      "model": "User",
       "foreignKey": "publisherId"
     }
   },

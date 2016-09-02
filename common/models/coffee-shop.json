@@ -18,9 +18,9 @@
       "model": "Review",
       "foreignKey": ""
     },
-    "reviewers": {
+    "users": {
       "type": "hasMany",
-      "model": "Reviewer",
+      "model": "User",
       "foreignKey": ""
     }
   },

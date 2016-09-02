@@ -11,7 +11,7 @@ angular
       filter: {
         include: [
           'coffeeShop',
-          'reviewer'
+          'user'
         ]
       }
     });
@@ -99,7 +99,7 @@ angular
         },
         include: [
           'coffeeShop',
-          'reviewer'
+          'user'
         ]
       }
     });
